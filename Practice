@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Time Table</title>
+</head>
+<body>
+    
+    <table align="center" bgcolor = "#82CAFA" border="2" cellpadding="25" cellspacing="3">
+    <caption><h3><u>GNE College Time Table</u></h3></caption>
+    <tr align="center">
+        <th></th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+    </tr>
+    <tr align="center">
+        <td>8:30-9:30</td>
+        <td><b>Python L</b><br>(AG)</td>
+        <td><b>Prob & Stats</b><br>(HPK)</td>
+        <td><b>DBMS</b><br>(KG)</td>
+        <td><b>OS</b><br>(PB)</td>
+        <td><b>WT</b><br>(HK)</td>
+   </tr>
+   
+    <tr align="center">
+        <td>9:30-10:30</td>
+        <td><b>Prob & Stats</b><br>(HPK)</td>
+        <td><b>WT</b><br>(HK)</td>
+        <td><b>WT</b><br>(HK)</td>
+        <td><b>Prob & Stats</b><br>(HPK)</td>
+        <td><b>Python L</b><br>(AG)</td>
+    </tr>
+
+    <tr align="center">
+        <td>10:30-11:30</td>
+        <td><b>Prob & Stats</b><br>(HPK)</td>
+        <td><b>WT</b><br>(HK)</td>
+        <td><b>WT</b><br>(HK)</td>
+        <td><b>Prob & Stats</b><br>(HPK)</td>
+        <td><b>Python L</b><br>(AG)</td>
+    </tr>
+
+    <tr align="center">
+        <td>11:30-12:30</td>
+        <td><b>DBMS</b><br>(KG)</td>
+        <td><b>CAM Lab-A</b><br>(YK)</td>
+        <td><b>CAM</b><br>(YK)</td>
+        <td><b>CAM</b><br>(YK)</td>
+        <td><b>DBMS</b><br>(KG)</td>
+    </tr>
+
+    <tr align="center">
+        <td>11:30-12:30</td>
+        <td><b>DBMS</b><br>(KG)</td>
+        <td><b>CAM Lab-A</b><br>(YK)</td>
+        <td><b>CAM</b>(YK)<br></td>
+        <td><b>CAM</b><br>(YK)</td>
+        <td><b>DBMS</b><br>(KG)</td>
+    </tr>
+
+    <tr align="center">
+        <td>12:30-01:30</td>
+        <td colspan="5"><b>😎Break😎</b></td>
+    </tr>
+    
+    <tr align="center">
+        <td>01:30-02:30</td>
+        <td rowspan="2"><b>Python Lab-A</b><br>(HPK)</td>
+        <td rowspan="2"><b>DBMS Lab-A,B</b><br>(MK)</td>
+        <td rowspan="2"><b>Python Lab-B</b><br>(HPK)</td>
+        <td><b>MC-A</b></td>
+        <td></td>
+    </tr>
+    
+    <tr align="center">
+        <td>02:30-03:30</td>
+        <td></td>
+        <td></td>
+    </tr>
+
+    </table>
+
+</body>
+</html>
