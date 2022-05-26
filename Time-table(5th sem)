@@ -7,7 +7,7 @@
       <title>😎GNE College Time Table</title>
    </head>
    <body>
-      <table align="center" bgcolor = "#ffccff" border="2" cellpadding="25" cellspacing="3">
+      <table style ="width:75%" align="center" bgcolor = "#ffccff" border="2" cellpadding="25" cellspacing="3">
          <caption>
             <h3><u>Time Table(5th Sem)</u></h3>
          </caption>
@@ -157,7 +157,7 @@
             <td colspan="5"><b>😎Break😎</b></td>
          </tr>
          <tr align="center">
-            <td>12:30-02:30</td>
+            <td>12:30-01:30</td>
             <td>
                <div class="row">
                <div class="column" style="background-color:#ccf2ff;">
@@ -266,8 +266,7 @@
                   <p><b>D3IT_A2</b><br>JAVA_LAB <br>P<br>(MNK)<br>WD_LAB</p>
                </div>
             </td>
-            <td></td>
-         </tr>
+            </tr>
          <tr align="center">
             <td>02:30-03:30</td>
             <td><b>IOT L</b><br>(PB)<br>(S-214)</td>
