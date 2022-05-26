@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>😎GNE College Time Table</title>
+   </head>
+   <body>
+      <table align="center" bgcolor = "#ffccff" border="2" cellpadding="25" cellspacing="3">
+         <caption>
+            <h3><u>Time Table(5th Sem)</u></h3>
+         </caption>
+         <th colspan="6">D3IT_A</th>
+         <tr align="center">
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+         </tr>
+         <tr align="center">
+            <td>8:30-9:30</td>
+            <td><b>------</b></td>
+            <td><b>JAVA L</b><br>(HPK)<br>(S-214)</td>
+            <td>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1</b><br>JAVA T <br>(HPK)<br>OS1_Lab</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A2</b><br>DISCRETE T<br>(HK)<br>HPC_LAB</p>
+               </div>
+            </td>
+            <td><b>IOT</b><br>(PB)<br>(S-219)</td>
+            <td><b>------</b></td>
+         </tr>
+         <tr align="center">
+            <td>9:30-10:30</td>
+            <td>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1</b><br>JAVA_LAB P<br>(HK)<br>DBMS_Lab</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A2</b><br>TOC T<br>(RPK)<br>S-214</p>
+               </div>
+            </td>
+            <td>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>BIA<br>(KJ)<br>HPC_Lab</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>AWT<br>(MNK)<br>S-213</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>SMA<br>(SKS)<br>WD_LAB</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>CRYPTO<br>(KKD)<br>HW_LAB</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>ACN<br>(MJK)<br>DBMS_LAB</p>
+               </div>
+            </td>
+            <td>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>BIA<br>(KJ)<br>HPC_Lab</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>AWT<br>(MNK)<br>S-219</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>SMA<br>(SKS)<br>WD_LAB</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>CRYPTO<br>(KKD)<br>HW_LAB</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>ACN<br>(MJK)<br>DBMS_LAB</p>
+               </div>
+            </td>
+            <td>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1</b><br>JAVA_LAB <br>P<br>(HPK)<br>DBMS_Lab</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A2</b><br>IOT LAB <br>P<br>(PB)<br>WD_LAB</p>
+               </div>
+            </td>
+            <td><b>JAVA L</b><br>(HPK)<br>(S-213)</td>
+         </tr>
+         <tr align="center">
+            <td>10:30-11:30</td>
+            <td>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1</b><br>JAVA_LAB P<br>(HK)<br>DBMS_Lab</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A2</b><br>JAVA T<br>(HPK)<br>S-213</p>
+               </div>
+            </td>
+            <td><b>DISCRETE L</b><br>(HK)<br>(S-213)</td>
+            <td><b>TOC L</b><br>(RPK)<br>(S-213)</td>
+            <td>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1</b><br>JAVA_LAB <br>P<br>(HPK)<br>DBMS_Lab</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A2</b><br>IOT LAB<br>P<br>(PB)<br>WD_LAB</p>
+               </div>
+            </td>
+            <td>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>BIA<br>(KJ)<br>PL1_Lab</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>AWT<br>(MNK)<br>S-214</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>SMA<br>(SKS)<br>WD_LAB</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>CRYPTO<br>(KKD)<br>DBMS_LAB</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>ACN<br>(MJK)<br>G-19</p>
+               </div>
+            </td>
+         </tr>
+         <tr align="center">
+            <td>11:30-12:30</td>
+            <td colspan="5"><b>😎Break😎</b></td>
+         </tr>
+         <tr align="center">
+            <td>12:30-02:30</td>
+            <td>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>BIA_LAB<br>P<br>(KJ)<br>HPC_Lab</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>AWT_LAB<br>P<br>(MNK)<br>OS1_LAB</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>SMA_LAB<br>P<br>(SKS)<br>WD_LAB</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>CRYPTO_LAB<br>P<br>(KKD)<br>PL1_LAB</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>ACN_LAB<br>P<br>(MJK)<br>DBMS_LAB</p>
+               </div>
+            </td>
+            <td>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  >
+                  <p><b>D3IT_A1,<br>MC MC</b><br>MSM<br>HW_Lab</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>MC MC</b><br>KJ<br>WD_Lab</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>MC MC</b><br>RPK<br>OS1_Lab</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+               <p><b>D3IT_A1,<br>MC MC</b><br>HJ<br>PL1_Lab</p>
+            </td>
+            <td><b>DISCRETE L</b><br>(HK)<br>(G-19)</td>
+            <td>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1</b><br>TOC T <br>(RPK)<br>PL1_Lab</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A2</b><br>JAVA_LAB P<br>(MNK)<br>WD_LAB</p>
+               </div>
+            </td>
+            <td>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1</b><br>IOT_LAB P <br>(PB)<br>PL1_Lab</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A2</b><br>JAVA_LAB P<br>(MNK)<br>WD_LAB</p>
+               </div>
+            </td>
+         </tr>
+         <tr align="center">
+            <td>01:30-02:30</td>
+            <td>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>BIA_LAB<br>P<br>(KJ)<br>HPC_Lab</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>AWT_LAB<br>P<br>(MNK)<br>OS1_LAB</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>SMA_LAB<br>P<br>(SKS)<br>WD_LAB</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>CRYPTO_LAB<br>P<br>(KKD)<br>PL1_LAB</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1,<br>D3_ITB</b><br>ACN_LAB<br>P<br>(MJK)<br>DBMS_LAB</p>
+               </div>
+            </td>
+            <td><b>TOC L</b><br>(RPK)<br>(G-19)</td>
+            <td><b>IOT L</b><br>(PB)<br>(G-19)</td>
+            <td>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1</b><br>IOT_LAB<br>P<br>(PB)<br>PL1_Lab</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A2</b><br>JAVA_LAB <br>P<br>(MNK)<br>WD_LAB</p>
+               </div>
+            </td>
+            <td>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A1</b><br>IOT_LAB<br>P<br>(PB)<br>PL1_Lab</p>
+               </div>
+               <div class="row">
+               <div class="column" style="background-color:#ccf2ff;">
+                  <p><b>D3IT_A2</b><br>JAVA_LAB <br>P<br>(MNK)<br>WD_LAB</p>
+               </div>
+            </td>
+            <td></td>
+         </tr>
+         <tr align="center">
+            <td>02:30-03:30</td>
+            <td><b>IOT L</b><br>(PB)<br>(S-214)</td>
+            <td rowspan="2"><b>TPO ACTIVITY</b></td>
+            <td><b>JAVA L</b><br>(HPK)<br>(S-219)</td>
+            <td><b>TOC L</b><br>(RPK)<br>(S-213)</td>
+            <td>------</td>
+         </tr>
+         <tr align="center">
+            <td>03:30-04:30</td>
+            <td><b>DISCRETE L</b><br>(HK)<br>(G-19)</td>
+            <td>------</td>
+            <td>------</td>
+            <td>------</td>
+         </tr>
+      </table>
+   </body>
+</html>
