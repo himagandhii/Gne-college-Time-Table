@@ -1,0 +1,175 @@
+[class*="timetable"]
+    {mix-blend-mode:color;animation:timetable 2s ease-in-out infinite alternate}
+
+
+.timetable_1{
+    background: #ff1493;
+    width: 60px;
+    height: 60px;
+    top:90px;
+    left:210px;
+}    
+
+
+.timetable_2{
+    background: #ff4500;
+    width: 80px;
+    height: 80px;
+    top: 155px;
+    left: 230px;
+} 
+
+.timetable_3{
+    background: #00ff00;
+    width: 60px;
+    height: 60px;
+    top: 145px;
+    left: 20px;
+} 
+
+.timetable_4{
+    background: #ff0000;
+    width: 100px;
+    height: 100px;
+    top: 115px;
+    left: 100px;
+} 
+
+.timetable_5{
+    background: #ffff00;
+    width: 50px;
+    height: 50px;
+    top: 55px;
+    left: 70px;
+} 
+
+.timetable_6{
+    background: #00ffff;
+    width: 60px;
+    height: 60px;
+    top: 220px;
+    left: 55px;
+} 
+
+.timetable_7{
+    background: #ff8c00;
+    width: 50px;
+    height: 50px;
+    top: 210px;
+    left: 180px;
+} 
+
+@keyframes timetable{
+    0%{border-radius:   26% 74% 61% 39% / 54% 67% 33% 46%;}
+    10%{border-radius:  74% 26% 47% 53% / 68% 46% 54% 32%;}
+    20%{border-radius:  48% 52% 30% 70% / 27% 37% 63% 73%;}
+    30%{border-radius:  73% 27% 57% 43% / 28% 67% 33% 72%;}
+    40%{border-radius:  63% 37% 56% 44% / 25% 28% 72% 75%;}
+    50%{border-radius:  39% 61% 70% 30% / 61% 29% 71% 39%;}
+    60%{border-radius:  27% 73% 29% 71% / 73% 51% 49% 27%;}
+    70%{border-radius:  39% 61% 65% 35% / 74% 65% 35% 26%;}
+    80%{border-radius:  55% 45% 37% 63% / 38% 30% 70% 62%;}
+    90%{border-radius:  25% 75% 70% 30% / 39% 50% 50% 61%;}
+    100%{border-radius: 66% 34% 33% 67% / 65% 73% 27% 35%;}
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Titan+One');
+body{text-align: center;}
+div{display:block;position:absolute; }
+.container{
+
+    width: 320px;
+    height: 320px;
+    top: 50%;
+    left: 11%;
+    
+    transform: translate(-50%,-50%);
+}
+h1{
+    background: #fff;
+    width: 100%;
+    height: 89%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Titan One', cursive;
+    font-size: 90px;
+    font-weight: 700;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+h1 span{width: 100%;position: relative;}
+h1 span:before{
+    background:linear-gradient(45deg, #fc5c7d, #6a82fb, #fc5c7d);
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    content: "";
+    mix-blend-mode: screen;
+}
+/*table css */
+.center{
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height:500px;
+
+}
+
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 90%;
+
+}
+
+.switch input{
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #6a82fb;
+    transition: 0.4s;
+    border-radius: 34px;
+    border: 1px solid black;
+}
+
+.slider:before{
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    right: 0;
+    background-color: #000;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider
+{
+    background-color: #2196f3;
+}
+input:checked + .slider:before{
+    transform: translate(26px);
+}
+
+
+
