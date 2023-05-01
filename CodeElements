@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	h5{ 
+	color: blue
+	}
+</style>
+</head>
+<body>
+<h5> 1. <u> Code Element in HTML </u></h5>
+<p>The code element can be used to show code in HTML as it is in Monospace. </p>
+<code>
+a = 10; <br>
+b = 11; <br>
+c = a + b<br>
+
+</code>
+
+<h5> 2. <u>KBD Element in HTML </u></h5>
+<p>This element is used to define keyboard  input which is displayed in the browser's default Monospace. </p>
+<p>Copy the content using <kbd>Ctrl + c </kbd> </p>
+
+<h5> 3. <u>SAMP Element in HTML </u></h5>
+<p>This element is used to define a sample output for a code in HTML.</p>
+<p><samp>vehicleType = car. <br>
+Press F1 to continue.</samp></p>
+
+<h5> 4. <u>PRE Element in HTML </u></h5>
+<p>The pre element is used to display a pre-formatted text. Text in &lt;pre&gt; element is displayed in a fixed-width font, and the text preserves both spaces and line breaks. </p>
+<pre>Subscibe my youtube channel. Link is in bio.</pre>
+
+<h5> 5. <u>VAR Element in HTML </u></h5>
+<p>This element is used to define a variable in HTML. The content is displayed in Italic font. </p>
+<p>The area of a triangle is : 1/2 X <var>b</var> X <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+</body>
+
+</html>
