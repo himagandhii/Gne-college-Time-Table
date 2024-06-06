@@ -1,0 +1,8 @@
+.imageText{
+    font-size: 100px;
+    font-weight: bold;
+    background-image: url("./flag.jpg");
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
