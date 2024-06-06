@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Code Elements</title>
 <style>
 	h5{ 
-	color: blue
+	color: blue;
 	}
 </style>
 </head>
@@ -28,7 +29,7 @@ Press F1 to continue.</samp></p>
 
 <h5> 4. <u>PRE Element in HTML </u></h5>
 <p>The pre element is used to display a pre-formatted text. Text in &lt;pre&gt; element is displayed in a fixed-width font, and the text preserves both spaces and line breaks. </p>
-<pre>Subscibe my youtube channel. Link is in bio.</pre>
+<pre>Subscribe my youtube channel. Link is in bio.</pre>
 
 <h5> 5. <u>VAR Element in HTML </u></h5>
 <p>This element is used to define a variable in HTML. The content is displayed in Italic font. </p>
