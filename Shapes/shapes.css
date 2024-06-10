@@ -1,0 +1,94 @@
+body{
+    background-color: #e6f2f0;
+}
+h1{
+    text-align: center;
+    color: brown;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10%;
+    margin: 5%;
+  }
+
+.circle,.ellipse, .triangle, .hexagon, .star, .heart,.diamond,.parallelogram,.rhombus,.trapezoid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    clip-path: circle(30%); 
+  }
+  
+.ellipse{
+    width: 150px;
+    height: 100px;
+    background-color: #2ecc71;
+    clip-path: ellipse(50px 30px at 50% 50%);
+  }
+
+.triangle{
+    width: 150px;
+    height: 100px;
+    background-color: #cc2ec9;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.hexagon {
+    width: 100px;
+    height: 100px;
+    background-color: #f39c12;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+
+  .star {
+    width: 100px;
+    height: 100px;
+    background-color: #9b59b6;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  }
+  
+ 
+  .heart {
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3c;
+    clip-path: path('M50 15 C 20 0, 0 30, 50 75 C 100 30, 80 0, 50 15 Z');
+  }
+  
+    .diamond {
+        width: 100px;
+        height: 100px;
+        background-color: #1abc9c;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    }
+
+    .parallelogram {
+        width: 150px;
+        height: 100px;
+        background-color: #34495e;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    }
+      
+    .rhombus {
+        width: 100px;
+        height: 100px;
+        background-color: #d35400;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+    
+      .trapezoid {
+        width: 150px;
+        height: 100px;
+        background-color: #8e44ad;
+        clip-path: polygon(25% 0%, 75% 0%, 100% 100%, 0% 100%);
+      }
+      
