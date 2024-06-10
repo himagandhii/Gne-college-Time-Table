@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextGradient</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            color: #df1968;
+            background-color: rgb(229, 241, 240);
+         }
+        .text{
+            background: -webkit-linear-gradient(45deg, #FF8844 43%, #EC1161 46%, #52076F 60%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+            font-size: 48px; 
+            font-weight: bold;
+            }
+        .gradientBox {
+            height: 150px;
+            margin: 3%;
+            width: 50%;
+            background: linear-gradient(0deg, #09009f, #ee74e4 50%);
+           }
+           .choose {
+                flex: 1; 
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .choose label {
+                display: flex; 
+                align-items: center; 
+                margin-bottom: 5px; 
+            }
+        .choose input {
+            margin-left: 10px;
+        }
+          .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap; 
+            max-width: 800px; 
+            margin: 20px auto; 
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 class="text">TEXT GRADIENT</h1>
+
+    <div class="container">
+    <div class="gradientBox"></div> 
+        <div class="choose"> 
+            <h3> <u>Choose Orientation</u></h3>
+        <label for="radio1">00&deg
+        <input type="radio" name="ori" value="0deg" id="radio1">
+        </label>
+
+        <label for="radio2">45&deg;
+        <input type="radio" name="ori" value="45deg" id="radio2">
+        </label>
+
+        <label for="radio3">90&deg;
+        <input type="radio" name="ori" value="90deg" id="radio3">
+        </label>
+
+        <label for="radio4">180&deg;
+        <input type="radio" name="ori" value="180deg" id="radio4">
+        </label>
+
+        <label for="radio5">270&deg;
+        <input type="radio" name="ori" value="270deg" id="radio5">
+        </label>
+
+        </div> 
+    </div>
+
+        <script>
+            const gradientBox = document.querySelector('.gradientBox');
+            const radios = document.querySelectorAll('input[name="ori"]');
+    
+            radios.forEach(radio => {
+                radio.addEventListener('change', () => {
+                    const angle = radio.value;
+                    gradientBox.style.background = `linear-gradient(${angle},  #09009f, #ee74e4 50%)`;
+                });
+            });
+        </script>
+</body>
+</html>
