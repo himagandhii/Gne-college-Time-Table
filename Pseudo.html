@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+    body{
+        background: linear-gradient(90deg, rgb(186, 186, 236) 0%, rgb(243, 175, 175) 100%);
+    }
+    h1{
+        color: purple;
+        text-align: center;
+        text-decoration: underline;
+        text-decoration-color: rgb(241, 231, 231); 
+        text-decoration-style: double; 
+    }
+    /* Pseudo Class Example */
+    h2:hover{
+        color: red;
+        cursor: progress;
+    }   
+
+    ul li:first-child{
+        font-weight: bold;
+    }
+
+    p:nth-child(4){
+        color: blueviolet;
+    }
+
+    /* Pseudo Element Example */
+    h3::before {
+        content: ">> ";    
+    }
+
+    h3::after {
+        content: " <<";     
+    }
+
+    div::first-letter{
+        font-size: 2em;
+        color: blue;
+    }
+     
+    .firstLine::first-line{
+        font-style: oblique;
+        color: rgb(252, 6, 117); 
+    }
+
+    </style>
+</head>
+<body>
+    <h1>Pseudo Classes and Pseudo Elements:</h1>
+    
+  <p> Pseudo means 'false' or not 'real'. They don't target real, existing
+    html elements directly, but rather, they target a specific state or
+    part of an element.</p>
+  <ol>
+    <li> Pseudo Classes Targets elements based on the State or Action. Examples:</li>
+    
+    <h2>I am RED when hover</h2>
+    <ul>
+        <li>First item (Font-Weight Bold)</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ul>
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+    <p>Paragraph 3</p>
+    <li>Pseudo Elements Targets specific part of an Element. Examples:</li>
+
+    <h3>Heading 1</h3>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam dolorem distinctio eos voluptates saepe doloremque itaque minus exercitationem nam? Expedita non illo culpa et, eum excepturi quasi est eaque corporis.
+    <p class="firstLine">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius culpa fugit, animi dolorum iste commodi pariatur doloribus quam distinctio assumenda, rem aspernatur deleniti dolores a cum molestias sapiente error optio
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla autem voluptate sed voluptatem eos culpa nam facere odit. Esse, nostrum officiis sit laudantium a quis provident quod est expedita id.
+    </p> 
+  </ol>
+</body>
+</html>
